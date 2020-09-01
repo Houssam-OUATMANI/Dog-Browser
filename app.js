@@ -14,7 +14,7 @@ async function getDogs() {
     (dog) =>
       (cardHolder.innerHTML += `
     <div class="card" style="width: 20%;">
-        <img src="${dog}" class="card-img-top" alt="...">
+        <img src="${dog}" class="card-img-top" alt="Beautiful Dog">
     </div>
     `)
   );
